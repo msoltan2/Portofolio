@@ -1,12 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url("https://cdn.discordapp.com/attachments/558386070094479390/704361638030999662/ian-dooley-DJ7bWa-Gwks-unsplash_2.jpg");
+    /* background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*LpxLQj3xgPwMaUjaM3NW7g.jpeg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    /* background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a1c4fd); */
+    /* background: linear-gradient(135deg, #f3e6e8, #e3f0f9, #e8f9f3, #f9f3e8); */
+    background: linear-gradient(135deg, #eac5d8, #cfe2f3, #d4f3e1, #f3e4c5);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
     height: 100vh;
+    padding: 10px;
+    margin: 0;
 }
 .wrapper{
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    position: relative;
+    top: 40px;
     display: grid;
     grid-template-areas: 
     "b1 b2 b3 b4"
@@ -14,6 +27,7 @@ body{
     "ct ct ct ct";
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 40px 1fr 1fr;
+    padding-bottom: 15px;
 }
 button{ 
     height: 45px;
@@ -26,7 +40,6 @@ button{
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     color:rgb(90, 90, 90);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     white-space: nowrap;
     background-color: white;
     border: 1px solid  rgb(230, 230, 230);
@@ -52,6 +65,7 @@ button{
 }
 .hidden{
     display: none;
+    z-index: -2;
 }
 .content{
     display: flex;
@@ -84,7 +98,7 @@ button{
 .block-3{
     width: 100%;
     max-width: 1200px;
-    height: 800px;
+    min-height: 900px;
     background-color: white;
 }
 .block-4{
@@ -125,14 +139,14 @@ button{
         height: 1400px;
     }
     .block-3{
-        height: 900px;
+        min-height: 1700px;
     }
 }
 @media only screen and (max-width: 575px){
     button{
         padding-right: 5px;
         padding-left: 5px;
-        margin: 0 0 0 0;
+        margin: 0 2px 0 2px;
         font-size: 11px;
         font-weight: 500;
     }
@@ -144,3 +158,20 @@ button{
         height: 2600px;
     }
 }
+
+.content:has(iframe.hidden) {
+    z-index: -10;
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

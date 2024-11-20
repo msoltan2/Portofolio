@@ -1,3 +1,11 @@
+.exp-b > p {
+    color: gray;
+}
+
+.exp-b  h3 {
+    margin-top: 15px;
+}
+
 .black{
     color:black !important;
 }
@@ -49,108 +57,110 @@ body{
     color: white;
     padding: 5px 10px;
 }
-.skl-fill-1{
+.skl-fill-1 {
     display: flex;
     width: 100%;
     background: rgb(83,126,255);
-    background: linear-gradient(135deg, rgba(83,126,255,1) 80%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(135deg, rgba(83,126,255,1) 65%, rgb(239, 239, 239) 60%);
 }
 .skl-fill-2{
     display: flex;
     width: 100%;
     background: rgb(0,37,147);
-    background: linear-gradient(135deg, rgba(0,37,147,1) 65%, rgba(255,255,255,1) 45%);
+    background: linear-gradient(135deg, rgba(0,37,147,1) 65%, rgb(239, 239, 239) 45%);
 }
 .skl-fill-3{
     display: flex;
     width: 100%;
     background: rgb(255,61,41);
-    background: linear-gradient(135deg, rgba(255,61,41,1) 60%, rgba(255,255,255,1) 60%);
+    background: linear-gradient(135deg, rgba(255,61,41,1) 60%, rgb(239, 239, 239) 60%);
 }
 .skl-fill-4{
     display: flex;
     width: 100%;
     background: rgb(220,52,41);
-    background: linear-gradient(135deg, rgba(220,52,41,1) 60%, rgba(255,255,255,1) 60%);
+    background: linear-gradient(135deg, rgba(220,52,41,1) 60%, rgb(239, 239, 239) 60%);
 }
 .right{
     align-self: flex-end;
     margin: 0;
     font-size: 15px;
     padding:5px 0;
+    padding-right: 10px;
 }
 .skl-fill-5{
     display: flex;
     width: 100%;
     background: rgb(50,134,220);
-    background: linear-gradient(135deg, rgba(50,134,220,1) 30%, rgba(248,138,2,1) 30%, rgba(248,138,2,1) 57%, rgba(121,114,227,1) 57%, rgba(121,114,227,1) 80%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(135deg, rgba(50,134,220,1) 30%, rgba(248,138,2,1) 30%, rgba(248,138,2,1) 57%, rgba(121,114,227,1) 57%, rgba(121,114,227,1) 80%, rgb(239, 239, 239) 80%);
 }
 .skl-fill-6{
     display: flex;
     width: 100%;
     background: rgb(245,222,25);
-    background: linear-gradient(135deg, rgba(245,222,25,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(135deg, rgba(245,222,25,1) 90%, rgb(239, 239, 239) 30%);
 }
 .skl-fill-7{
     display: flex;
     width: 100%;
     background: rgb(20,134,196);
-    background: linear-gradient(135deg, rgba(20,134,196,1) 40%, rgba(255,255,255,1) 40%);
+    background: linear-gradient(135deg, rgba(20,134,196,1) 40%, rgb(239, 239, 239) 40%);
 }
 .skl-fill-8{
     display: flex;
     width: 100%;
     background: rgb(63,124,173);
-    background: linear-gradient(135deg, rgba(63,124,173,1) 36%, rgba(255,230,109,1) 36%, rgba(255,230,109,1) 70%, rgba(255,255,255,1) 70%);
+    background: linear-gradient(135deg, rgba(63,124,173,1) 36%, rgba(255,230,109,1) 36%, rgba(255,230,109,1) 70%, rgb(239, 239, 239) 70%);
 }
 .skl-fill-9{
     display: flex;
     width: 100%;
     background: rgb(50,222,132);
-    background: linear-gradient(135deg, rgba(50,222,132,1) 60%, rgba(255,255,255,1) 60%);   
+    background: linear-gradient(135deg, rgba(50,222,132,1) 60%, rgb(239, 239, 239) 60%);   
 }
 .skl-fill-10{
     display: flex;
     width: 100%;
     background: rgb(255,197,16);
-    background: linear-gradient(135deg, rgba(255,197,16,1) 0%, rgba(255,103,30,1) 22%, rgba(0,209,157,1) 37%, rgba(15,96,237,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(135deg, rgba(255,197,16,1) 0%, rgba(255,103,30,1) 22%, rgba(0,209,157,1) 37%, rgba(15,96,237,1) 50%, rgb(239, 239, 239) 50%);
 }
 .skl-fill-11{
     display: flex;
     width: 100%;
     background: rgb(48,48,48);
-    background: linear-gradient(135deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 20%, rgba(62,134,61,1) 20%, rgba(62,134,61,1) 40%, rgba(255,255,255,1) 40%);
+    background: linear-gradient(135deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 20%, rgba(62,134,61,1) 20%, rgba(62,134,61,1) 40%, rgb(239, 239, 239) 40%);
 }
 .skl-fill-12{
     display: flex;
     width: 100%;
     background: rgb(6,90,212);
-    background: linear-gradient(135deg, rgba(6,90,212,1) 60%, rgba(255,255,255,1) 60%);
+    background: linear-gradient(135deg, rgba(6,90,212,1) 60%, rgb(239, 239, 239) 60%);
 }
 .skl-fill-13{
     display: flex;
     width: 100%;
     background: rgb(54,163,235);
-    background: linear-gradient(135deg, rgba(54,163,235,1) 80%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(135deg, rgba(54,163,235,1) 80%, rgb(239, 239, 239) 80%);
 }
 .skl-fill-14{
     display: flex;
     width: 100%;
     background: rgb(255,49,132);
-    background: linear-gradient(135deg, rgba(255,49,132,1) 5%, rgba(249,119,35,1) 27%, rgba(253,232,61,1) 56%, rgba(253,232,61,1) 80%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(135deg, rgba(255,49,132,1) 5%, rgba(249,119,35,1) 27%, rgba(253,232,61,1) 56%, rgba(253,232,61,1) 80%, rgb(239, 239, 239) 80%);
 }
 .skl-fill-15{
     display: flex;
     width: 100%;
     background: rgb(1,1,1);
-    background: linear-gradient(135deg, rgba(1,1,1,1) 70%, rgba(255,255,255,1) 70%);
+    background: linear-gradient(135deg, rgba(1,1,1,1) 70%, rgb(239, 239, 239) 70%);
 }
 
 .skl-obj{
     width: 100%;
-    border: 1px solid rgb(230, 230, 230);
-    border-radius: 3px;
+    border-radius: 16px;
+    overflow: hidden;
     margin-bottom: 10px;
+    background: gray;
 }
 .exp-b{
     display: flex;
@@ -166,10 +176,11 @@ body{
     color:white;
     height: 30px;
     font-size: 15px;
-    padding: 8px 5px 0px 5px;
+    padding: 5px 10px;
     border-radius: 5px;
     font-weight: lighter;
-    display: none;
+    line-height: 30px;
+    margin-left: 10px;
 }
 .exp{
     grid-area: exp;
@@ -200,7 +211,9 @@ body{
     font-size: 25px;
 }
 .exp-des{
+    margin-top: 0;
     padding-bottom: 5px;
+    color: rgb(110, 110, 110);
 }
 .exp-t-box{
     display: flex;
@@ -226,7 +239,7 @@ h2{
 }
 @media only screen and (max-width: 960px){
     .skl-obj:hover .f p{
-        nothing;
+        /* nothing; */
     }
     .wrapper{
         grid-template-columns: 65% 35%;
@@ -254,6 +267,10 @@ h2{
         "exp-b3 sk"
         "exp-b4 sk"
         "exp-b5 sk"; */
+    }
+
+    .exp-t {
+        font-size: 21px;
     }
 
 }
